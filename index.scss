@@ -1,0 +1,237 @@
+/*# sourceMappingURL=index.scss.map */
+$primaryColor: #FFFFFF;
+$primaryFontSize: 16px;
+$secondaryFontSize: 12px;
+$tertiaryFontSize: 10px;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    background-color: #F0F0F0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 375px) {
+    .main {
+        padding: 60px;
+    }
+}
+
+.community {
+    background-color: $primaryColor;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    text-align: left;
+    height: 12rem;
+}
+
+@media screen and (max-width: 375px) {
+    .community {
+        width: 238px;
+        padding: 15px;
+    }
+}
+
+.community h1 {
+    color: #82CBC0;
+    padding: 15px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+    .community h1 {
+        font-size: $secondaryFontSize;
+    }
+}
+
+.community h2 {
+    color: #BFDF32;
+    padding: 15px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+    .community h2 {
+        font-size: $secondaryFontSize;
+    }
+}
+
+.community p {
+    color: #D6D7DB;
+    font-size: $primaryFontSize;
+    padding: 5px 15px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 375px) {
+    .community p {
+        font-size: $tertiaryFontSize;
+    }
+}
+
+.subscription {
+    background-color: #2BB3B0;
+    padding: 30px;
+    text-align: left;
+    border-radius: 0 0 0 10px;
+    height: 13rem;
+    width: 15rem;
+}
+
+@media screen and (max-width: 375px) {
+    .subscription {
+        border-radius: 0;
+        width: 13rem;
+        height: 10rem;
+    }
+}
+
+.subscription h2 {
+    color: $primaryColor;
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+    .subscription h2 {
+        font-size: $secondaryFontSize;
+    }
+}
+
+.subscription p {
+    color: $primaryColor;
+    font-size: $primaryFontSize;
+    padding: 15px 0 20px 0;
+}
+
+@media screen and (max-width: 375px) {
+    .subscription p {
+        font-size: $tertiaryFontSize;
+    }
+}
+
+.sign-up {
+    margin: 0 auto;
+}
+
+.subscription button {
+    background-color: #BFDF32;
+    color: $primaryColor;
+    height: 40px;
+    width: 240px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: $primaryFontSize;
+}
+
+@media screen and (max-width: 375px) {
+    .subscription button {
+        font-size: $secondaryFontSize;
+        height: 30px;
+        width: 190px;
+    }
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+@media screen and (max-width: 375px) {
+    .price {
+        border-radius: 0;
+        width: 13rem;
+        font-size: $tertiaryFontSize;
+    }
+}
+
+.price span {
+    color: $primaryColor;
+    font-size: 300%;
+}
+
+.price p {
+    font-weight: 400;
+    color: #D6D7DB;
+    padding: 5px;
+}
+
+.why-us {
+    background-color: #4ABEBC;
+    padding: 30px;
+    text-align: left;
+    border-radius: 0 0 10px 0;
+    height: 13rem;
+    width: 15rem;
+}
+
+@media screen and (max-width: 375px) {
+    .why-us {
+        width: 13rem;
+        height: 10rem;
+        font-size: $tertiaryFontSize;
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+.why-us h2 {
+    color: $primaryColor;
+    padding: 10px 0 10px 2px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+    .why-us h2 {
+        font-size: $secondaryFontSize;
+    }
+}
+
+.why-us p {
+    font-size: $primaryFontSize;
+    padding: 2px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 375px) {
+    .why-us p {
+        font-size: $tertiaryFontSize;
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    color: $primaryColor;
+    height: 50%;
+    width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
